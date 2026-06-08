@@ -672,6 +672,14 @@ pre {
 .offset-11 {
   margin-left: 91.6666666667%; }
 
+/* Kugi */
+@media (max-width: 768px) {
+  #contact .col-lg-4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;}
+}
+/* Kugi End */
+
 @media (min-width: 576px) {
   .col-sm {
     flex-basis: 0;
@@ -7441,6 +7449,13 @@ form .row:first-child .floating-label-form-group {
   background-color: #006ba6;
   color: #fff;
   border-radius: 100%; }
+
+/* Kugi */
+#contact a.lead {
+  word-break: break-word;
+  text-align: center;
+}
+/* Kugi End */
 
 .navbar-brand img {
   max-width: 13.5rem; }
